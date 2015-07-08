@@ -4,35 +4,42 @@
   font-family: 'Roboto', sans-serif;
 }
 
-.clearfix {
-  overflow: auto;
-}
-
 .education-entry, .work-entry, .project-entry {
   padding-left: 5%;
   padding-right: 5%;
 }
+.biopic {
+    border-radius: 25px;
+    float: left;
+    padding: 20px;
+
+}
+.title{
+  text-align: left;
+  display: block;
+}
+.title span{
+  font-size: 28px;
+  color:#C7F464;
+}
 
 h1 {
   font-size: 40px;
-  color: #F5A623;
+  color: #C44D58;
   line-height: 48px;
-  display: inline;
 }
 
 h2 {
   font-weight: bold;
   font-size: 24px;
-  color: #999999;
+  color: #C7F464;
   line-height: 29px;
   padding: 10px;
 }
 
 h3 {
-  font-style: italic;
   font-size: 20px;
   color: #000000;
-  line-height: 22px;
 }
 
 h4 {
@@ -47,7 +54,6 @@ h2, h3, h4, h5 {
   padding-left: 5%;
   padding-right: 5%;
 }
-
 
 .date-text {
   font-style: italic;
@@ -73,7 +79,7 @@ p {
 }
 
 a {
-  color: #1199C3;
+  color: #FF6B6B;
   text-decoration: none;
   margin-top: 10px;
   display: block;
@@ -82,7 +88,7 @@ a {
 .welcome-message {
   font-style: italic;
   font-size: 18px;
-  color: #F3F3F3;
+  color: #C7F464;
   line-height: 28px;
 }
 
@@ -92,11 +98,11 @@ a {
 }
 
 .orange {
-  background-color: #F5AE23;
+  background-color: #4ECDC4;
 }
 
 .orange-text {
-  color: #F5AE23;
+  color: #C44D58;
 }
 
 .white-text {
@@ -109,23 +115,19 @@ a {
   padding-bottom: 10px;
   clear:both;
 }
+.gray h3{
+  padding-top:30px;
+}
 
 .dark-gray {
   background-color: #4A4A4A;
 }
-
-/* TODO: Replace with image later */
-#header {
-  background-color: #484848;
+.dark-gray h2{
+  color:#FFFFFF;
 }
 
-.flex-box {
-  display: -webkit-flex;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 10px;
+#header {
+  background-color: #4ECDC4;
 }
 
 .center-content {
@@ -139,17 +141,17 @@ ul {
   list-style-type: none;
 }
 
-.biopic {
-  float: left;
-  padding: 10px;
-  width: 200px;
-  display: none;
-}
-
 img {
   padding: 10px;
 }
-
+.flex-box {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 5px;
+}
 /* Bar chart stuff */
 .chart div {
   font: 10px sans-serif;
